@@ -18,7 +18,7 @@ const getUsers = async (req, res) => {
         })
     } finally {
         await client.close()
-    }
+    } 
 }
 
 const getUserById = async (req, res) => {

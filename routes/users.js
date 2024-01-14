@@ -13,3 +13,4 @@ router.put('/:id', UserController.editUserById)
 router.delete('/:id', UserController.deleteUserById)
 
 module.exports = router
+
