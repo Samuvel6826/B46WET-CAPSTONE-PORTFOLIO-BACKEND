@@ -1,4 +1,3 @@
-
 const { mongodb, client } = require('../config/dbconfig')
 
 const getUsers = async (req, res) => {
