@@ -10,7 +10,7 @@ app.use(express.json())
 app.use('/Users',UserRoute)
 
 app.get('/',(req,res)=>{
-    res.send('<h1>Welcome</h1>')
+    res.send('<h1><a href="http://samtocode24.netlify.app" target="_blank">samtocode24.netlify.app</a></h1>')
 })
 
 app.listen(PORT, ()=>console.log(`App is running in port ${PORT}`))
