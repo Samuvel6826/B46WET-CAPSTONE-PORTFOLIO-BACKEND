@@ -7,7 +7,7 @@ const PORT = process.env.PORT
 
 app.use(cors())
 app.use(express.json())
-app.use('/Users',UserRoute)
+app.use('/projects',UserRoute)
 
 app.get('/',(req,res)=>{
     res.send('<h1><a href="http://samtocode24.netlify.app" target="_blank">samtocode24.netlify.app</a></h1>')
